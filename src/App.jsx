@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from "react";
 
-const DAYS = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+const DAYS = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
 const POST_TYPES = ["Unarmed Guard","Armed Guard","Virtual SOC","Gate Attendant","Rover","Supervisor"];
 const PRIORITIES = ["Critical","High","Normal"];
 const DEFAULT_SCHEDULE = DAYS.map(d => ({ day:d, active:false, start:"06:00", end:"18:00" }));
